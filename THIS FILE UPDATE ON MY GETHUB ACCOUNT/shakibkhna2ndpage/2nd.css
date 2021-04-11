@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+	
+}
+section{
+	margin-top:80px;
+	margin-bottom: 80px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:500;
+	font-family: 'Oswald', sans-serif;
+}
+
+body{
+	'Work Sans', sans-serif;
+	font-size:16px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.containerinfo {
+    overflow: hidden;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    
+    color: #333;
+}
+
+.phone i {
+    color: #ff5200;
+}
+
+
+.email {
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+    
+    color: #333;
+}
+
+.email i {
+    color: #ff5200;
+}
+
+.socialicons {
+    width: 140px;
+    float: left;
+}
+
+.socialicons a i {
+    color: #423535;
+	transition:0.3s;
+}
+
+.socialicons a {
+    display: block;
+    float: left;
+    padding: 15px;
+   
+}
+
+.socialicons a i:hover {
+    color: #ff5200;
+}
+
+header.backgroundforheader {
+    background: url(picture/in2-slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.headertottlemenu {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.headerimg {
+    width: 150px;
+    float: left;
+}
+
+.headertottlemenuitems ul li {list-style: none;}
+
+.headertottlemenuitems ul li a {
+    float: left;
+    color: white;
+    float: left;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:0.3s;
+}
+
+#headersearch {
+    margin-top: 2px;
+}
+
+.headertottlemenuitems {
+    float: right;
+    width: 616px;
+}
+
+.headertottlemenuitems a:hover {
+    color: #ff5200;
+}
+
+.headerfortext h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 507px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.headerfortext p {
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    width: 477px;
+    margin-bottom: 40px;
+}
+
+.forbuttons a {
+    color: white;
+    background: #ff5200;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.forbuttons a:hover {
+    color: white;
+    background: #333;
+}
+
+.headerspan span {border: 3px solid #ff5200;float: left;border-radius: 100%;padding: 5px;margin-left: 3px;margin-bottom: 40px;}
+
+.headerspan {
+    overflow: hidden;
+    width: 38px;
+    margin: auto;
+}
+
+.headerspan span:first-child {
+    background: #ff5200;
+}
+
+.headertottlemenuitems ul li a i {vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.submenu {
+    position: absolute;
+    background: white;
+    width: 220px;
+    margin-top: 80px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+ul.submenu li a {
+    color: #504848;
+    float: none;
+    text-transform: capitalize;
+}
+
+ul.submenu li {
+    padding: 10px 15px;
+}
+
+ul.submenu li:first-child {
+    padding-top: 30px;
+}
+
+ul.submenu li:last-child {
+    padding-bottom: 30px;
+}
+
+ul.submenu li a:before {content: "";background: #ff5200;width: 0px;height: 2px;display: inline-block;vertical-align: middle;visibility: visible;transition: 0.3s;}
+
+ul.submenu li:hover a:before {
+    width: 15px;
+    visibility: visible;
+}
+
+.headertottlemenuitems ul li:hover .submenu {
+
+    visibility:visible;
+    
+}
+
+.headertottlemenuitems ul li:hover .submenu {
+    transform: scale(1);
+}
+
+.CONSTRUCTIONwrapper {
+    overflow: hidden;
+}
+
+.CONSTRUCTIONimg img {
+    float: left;
+    margin-right: 50px;
+}
+
+.CONSTRUCTIONtitleanddisc {
+    float: right;
+    width: 550px;
+}
+
+.CONSTRUCTIONtitleanddisc h1 {
+    color: black;
+    width: 536px;
+    font-size: 33px;
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+
+.CONSTRUCTIONtitleanddisc p {
+    color: #333;
+    font-size: 19px;
+    font-family: arial;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.constructionbutton a {
+    color: white;
+    background: #333;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 3px;
+    transition: 0.3s;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.constructionbutton a:hover {
+    background: #ff5200;
+}
+
+#box4 {
+    background: #F5F6F6;
+    margin-top: 0px;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxwrapper4 {
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+#singlebox {
+    width: 250px;
+    float: left;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    margin-left: 33px;
+	transition:0.3s;
+}
+
+.singleboxicons i {
+    color: #ff5200;
+    font-size: 50px;
+    margin-top: 34px;
+}
+
+.singleboxtitleanddisc h2 {
+    color: #444;
+    line-height: 30px;
+    margin-top: 25px;
+    font-size: 32px;
+}
+
+.singleboxtitleanddisc p {
+    color: #333;
+    font-size: 18px;
+    font-family: arial;
+    width: 215px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.singleboxlink a {
+    color: #ff5200;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: arial;
+}
+
+.singlebox {
+    width: 250px;
+    float: left;
+    text-align: center;
+    background: #ff5200;
+    border: 1px solid #ddd;
+    margin-left: 33px;
+	color:white;
+}
+
+.singlebox .singleboxicons i{
+	
+	color:white;
+}
+
+.singlebox .singleboxtitleanddisc h2{
+	color:white;
+	
+}
+
+.singlebox .singleboxtitleanddisc p{
+	
+	color:white;
+}
+
+.singlebox .singleboxlink a{
+	color:white;
+	
+}
+
+.singleboxlink a i {
+    vertical-align: middle;
+    margin-top: -8px;
+}
+
+#singlebox:hover {
+    color: white;
+    background: #ff5200;
+}
+
+#singlebox:hover i{
+	color:white;
+	transition:0.3s;
+}
+
+
+#singlebox:hover h2{
+	color:white;
+	transition:0.3s;
+}
+
+
+#singlebox:hover p{
+	color:white;
+	transition:0.3s;
+}
+
+#singlebox:hover#singlebox:hover a{
+	color:white;
+	transition:0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.idasbaandsurviceswrapper {
+    overflow: hidden;
+}
+
+.CHECKOUTOURLATESTIDEA50 {
+    width: 50%;
+    float: left;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.ideasimg img {
+    width: 100%;
+}
+
+
+
+
+
